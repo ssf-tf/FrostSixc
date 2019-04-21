@@ -1,0 +1,207 @@
+{
+    "images":
+    {
+		"logo":
+        {
+            "image" : "mainmenu:er.png",
+            "posX" : -200,
+            "posY" : 0,
+            "width" : 411,
+            "height" : 100,
+			imageWidth : 700,
+			imageHeight : 170,
+            "alignment" : "top_center"
+        }
+	
+	},
+    
+    "buttons":
+    {     
+		"Singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"texture" : "mainmenu:button.png",
+            "posX" : 15,
+            "posY" : 0,
+            "width" : 150,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"NewWorld":
+        {
+            "text" : "+",
+	    "tooltip": "New World",
+			"texture" : "mainmenu:button.png",
+            "posX" : 162,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer.createworld"
+            }
+        },
+		
+		"Multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"texture" : "mainmenu:button.png",
+            "posX" : 15,
+            "posY" : 20,
+            "width" : 130,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+	
+	"Options":
+        {
+            "text" : "menu.options",
+			"texture" : "mainmenu:button.png",
+            "posX" : 15,
+            "posY" : 40,
+            "width" : 110,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"Language":
+        {
+            "text" : "",
+			"texture" : "mainmenu:lang.png",
+            "posX" : 125,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+			imageWidth : 64,
+			imageHeight : 64,			
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "Quit":
+        {
+            "text" : "menu.quit",
+			"normalTextColor" : 16729156,
+			"hoverTextColor" : 14483456,
+			"texture" : "mainmenu:clear.png",
+            "posX" : -105,
+            "posY" : -25,
+            "width" : 100,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "bottom_right",
+			"hoverText" : "Better be back :P",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "Mods":
+        {
+            "text" : "Mods (#modsloaded#/#modsactive#)",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:clear.png",
+            "posX" : 5,
+            "posY" : -25,
+            "width" : 96,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+		
+		"Refresh":
+        {
+            "text" : "",
+            "posX" : 105,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			imageWidth : 64,
+			imageHeight : 64,
+			"alignment" : "bottom_left",
+            "texture" : "mainmenu:reload.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+		
+		"GitHub":
+        {
+            "text" : "",
+            "posX" : 130,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+			imageWidth : 64,
+			imageHeight : 64,
+			"alignment" : "bottom_left",
+            "texture" : "mainmenu:github.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://github.com/ElementalRealms"
+            }
+        },
+	"accounts":
+	{
+		"text" : "#username#",
+            "posX" : 5,
+            "posY" : -45,
+            "width" : 96,
+            "height" : 20,
+		"alignment" : "bottom_left",
+		"texture": "mainmenu:clear.png",
+		"wrappedButton" : 20,
+		"tooltip" : "Re-login menu"
+	}
+	},
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:bg.jpg",
+			"mode" : "tile"
+		}
+    }
+}
