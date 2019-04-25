@@ -27,7 +27,7 @@
 "rebind_quit": { "holder": "", "name": "", "category": "mc.misc", "key": 1, "mod": "", "enabled": true},
 "rebind_hidehud": { "holder": "", "name": "", "category": "mc.misc", "key": 59, "mod": "", "enabled": true},
 "mc_screenshot": { "holder": "", "name": "", "category": "mc.misc", "key": 60, "mod": "", "enabled": true},
-"rebind_debugscreen": { "holder": "", "name": "", "category": "mc.misc", "key": 0, "mod": "", "enabled": false},
+"rebind_debugscreen": { "holder": "", "name": "", "category": "mc.misc", "key": 0, "mod": "", "enabled": true},
 "rebind_switchshader": { "holder": "", "name": "", "category": "mc.misc", "key": 0, "mod": "", "enabled": false},
 "mc_toggleperspective": { "holder": "", "name": "", "category": "mc.misc", "key": 0, "mod": "", "enabled": false},
 "mc_fullscreen": { "holder": "", "name": "", "category": "Mode Switch", "key": 87, "mod": "", "enabled": true},
