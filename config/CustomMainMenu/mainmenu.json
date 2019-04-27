@@ -201,7 +201,7 @@
 		"background":
 		{
 			"image" : "mainmenu:bg.jpg",
-			"mode" : "tile"
+			"mode" : "fill"
 		}
     }
 }
